@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">403216179173-2jdlmls34tj3vhnion1npktlis8rfbml.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">403216179173</string>
+    <string name="google_api_key" translatable="false">AIzaSyDkaBGqbFt6MOpp2qegnhZgwuPv3Dq_G8g</string>
+    <string name="google_app_id" translatable="false">1:403216179173:android:8ccc1a78bd6906f1c8990c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDkaBGqbFt6MOpp2qegnhZgwuPv3Dq_G8g</string>
+    <string name="google_storage_bucket" translatable="false">safezonesa-d1654.firebasestorage.app</string>
+    <string name="project_id" translatable="false">safezonesa-d1654</string>
+</resources>
