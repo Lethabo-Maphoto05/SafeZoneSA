@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Debug-only override of res/xml/network_security_config.xml. Android merges this in
+  automatically for debug builds only (Gradle source-set precedence) — it never ships in a
+  release APK, so NFR2's "HTTPS everywhere" requirement still holds for anything you submit
+  or deploy. It exists purely because the local dotnet run API serves plain HTTP, and the
+  main config blocks all cleartext traffic.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
